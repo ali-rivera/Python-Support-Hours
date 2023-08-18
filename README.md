@@ -7,7 +7,7 @@ These workshops are intended to loosely follow the schedule of DS1002, but all w
 ### Tentative Schedule:
 | Date     | Topic                   | Location          |
 |----------|-------------------------|-------------------|
-| 8/30/23  | Tech Stack & Git/GitHub | Dell 1 Open Space |
+| 8/30/23  | Tech Stack              | Dell 1 Open Space |
 | 9/13/23  |                         | Dell 1 Open Space |
 | 9/27/23  |                         | Dell 1 Open Space |
 | 10/11/23 |                         | Dell 1 Open Space |
