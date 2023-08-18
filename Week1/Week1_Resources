@@ -1,11 +1,12 @@
 # Tech Stack
 To run python code on your machine you'll need an environment to do so. There are a few options for getting started, each with their Pros and Cons...
 
-### Text Editor
-
 ### IDE (Integrated Development Environment)
+Pros: 
+Examples[code academy]: VS Code (free!), PyCharm
 
 ### Anaconda/Miniconda
 
 ### Google Collab
 
+[code academy]: https://www.codecademy.com/resources/blog/popular-ides-and-code-editors/
