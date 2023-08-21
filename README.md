@@ -21,4 +21,4 @@ These Support Hours are intended to loosely follow the schedule of DS1002, but o
 
 
 
-[Sign in link]:  https://forms.office.com/pages/responsepage.aspx?id=x4A0ewc3c0iLd-IWczplrGOYHY4L82xIpZIH_NI1CCpURjJBTzk4V0ZHVjMxVVFFOThENzgzTE1UMS4u>
+[Sign in link]:  https://forms.office.com/r/XZa0ctu8jn
