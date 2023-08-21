@@ -1,8 +1,8 @@
-# Python-Support-Workshop
+# Python-Support-Hours
 
-Welcome to the resource page for the Python Support Workshops! This page will be updated regularly with the materials we use in the workshops.
+Welcome to the resource page for the Python Support Hours! This page will be updated regularly with the materials we use.
 
-These workshops are intended to loosely follow the schedule of DS1002, but all who would like support in their Python journey.
+These Support Hours are intended to loosely follow the schedule of DS1002, but open to all who would like support in their Python journey.
 
 ### Tentative Schedule:
 | Date     | Topic                   | Location          |
