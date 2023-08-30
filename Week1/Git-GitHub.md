@@ -55,6 +55,17 @@ You want to build out a new "share" feature in your app without affecting the fu
         4. When your new feature is complete, you can create a pull request to merge your "add-share-feature" branch to the main branch.
         5. After doing a final review, you can merge your branches and your new feature will be added to your main branch.
 
+#### Use Case 3: Using GitHub in Class
+Ok - more realistically you'll probably interact with GitHub the most in your classes right now. Your professors may host their materails on GitHub and you'll want to be able to get the up-to-date materials as they are added. You'll also want to be able to have any code files, like a homework .ipynb file, they share available to run on whatever environment you have chosen. Here's how that looks:
+
+    They will:
+        1. Set up a repo on GitHub with the course materials. Let's say they add the files to the repo weekly, so each week they add the new files you'll need for that week.
+    
+    You will:
+        1. Fork the repo and clone it to your local machine.
+        2. Before each class, you'll fetch upstream and get the new files added as well as any updates they've performed since you last pulled and merge them to your branch. You can open these files from your local in whatever environment you use (VS code, Jupyter, Google Colab, etc.)
+        3. You may add notes or complete homework assignments that you store in your own repo. When you make changes you're happy with, you'll (add, commit, and) push these to your own forked copy of the repo. These won't go to your instructor's copy unless you make a pull request to do so.
+
 _____________________________
 # Next Steps:
 - Make sure you have Git installed on your computer (run `git --version` in a terminal) or download Git if needed​
@@ -62,6 +73,8 @@ _____________________________
 - Use the linked documentation to set up a GitHub account and local connection​
 
 - Fork the Spoon-Knife repo, make a change locally, and (add, commit, and) push it to your repo​
+
+- Check out this [Software Carpentry] page to help you get started with git and github! This walks you though a case study on setting up git repos and using git/github throughout a project. It's also a great introduction to using git from the command line!
 
 [download Git]: https://git-scm.com/downloads
 [GitHub]: https://github.com/
@@ -77,3 +90,5 @@ _____________________________
 [fork]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
 [clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 [fetch upstream]: https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository#fetching-changes-from-a-remote-repository
+
+[Software Carpentry]: https://swcarpentry.github.io/git-novice/index.html
