@@ -3,21 +3,21 @@
 # Git & GitHub
 
 ## Git
-Git is a versioning software that sits on your local computer and aids in the tracking of changes for **code files**. You'll need to [download Git] on your computer.
+Git is a versioning software that sits on your local computer and aids in the tracking of changes for **code files**. You'll need to [download Git] on your computer. Think of it as a digital leager that tracks the changes in any document over time. 
 
 ## GitHub
-[GitHub] is a website that hosts remote repositories (read: repos) that hold an enitre project's folders, files, and version history for each file. Repos can be private or public, meaning only you can see them or anyone on the internet can see everything in the repo, respectively. 
+[GitHub] is a website that hosts remote repositories (read: repos) that hold an entire project's folders, files, and version history for each file. Repos can be private or public, meaning only you can see them or anyone on the internet can see everything in the repo, respectively. 
 
-You can check out the [GitHub documentation] for more info about GitHub... it's pretty user friendly!
+You can check out the [GitHub documentation] for more info about GitHub... it's pretty user-friendly!
 
-You can interact with GitHub in 3 ways: CLI (command line interface), the website, and the GitHub Desktop app. 
+You can interact with GitHub in 4ish ways: CLI (command line interface), the website, through your IDE (VS Code), and the GitHub Desktop app. 
 
-When you intereact with GitHub, you're usually connecting your local repo (on your computer) and the remote repo (on GitHub) in some way. Here are several basic terms you'll use when to getting started:
+When you interact with GitHub, you're usually connecting your local repo (on your computer) and the remote repo (on GitHub) in some way. Here are several basic terms you'll use when getting started:
 
 ### GitHub Jargon to Get Started
-- [add] - specifies which files you want to be commited - you really only use this when you're using the CLI
+- [add] - specifies which files you want to be committed - you really only use this when you're using the CLI
 - [commit] - saves a change you've made to the respective branch you're in (either the main or a side branch), a commit acts as a snapshot of the file at the time of the commit
-- [push] - updates the repote repo with the changes made locally
+- [push] - updates the remote repo with the changes made locally
 - [pull]- gets the most recent version of the remote repo to your local repo
 - [branch] - a version of your project where you are making changes (like adding a new feature) but not changing the base branch. This is helpful if you want to try something out without accidentally messing up your main branch.
 - [pull request] - propose changes to a repo, a pull request is made in a branch, so it does not affect the base branch until approved
@@ -27,7 +27,7 @@ When you intereact with GitHub, you're usually connecting your local repo (on yo
 - [fetch upstream] - gets all the new changes from the remote repo (or original repo, in the case of a forked repo) without merging
 
 ### Use Cases
-Let's say you have a repo set up for an app you're builidng and just added a developer to help you build out the app. You have a public remote repo already set up, but since it is your project, only you have permissions to make changes to it.
+Let's say you have a repo set up for an app you're building and just added a developer to help you build out the app. You have a public remote repo already set up, but since it is your project, only you have permission to make changes to it.
 
 #### Use Case 1: Bug fix
 You need to fix a bug you've recently discovered in your app. You assign your new developer to fix the bug. 
@@ -57,7 +57,7 @@ You want to build out a new "share" feature in your app without affecting the fu
 
 _____________________________
 # Next Steps:
-- Make sure you have Git installed on your computer (run `git --version` in a terminal) or download git if needed​
+- Make sure you have Git installed on your computer (run `git --version` in a terminal) or download Git if needed​
 
 - Use the linked documentation to set up a GitHub account and local connection​
 
