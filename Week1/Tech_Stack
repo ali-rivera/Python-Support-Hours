@@ -37,12 +37,12 @@ Examples: [AWS] (Amazon Web Services), [Azure] (Microsoft), [Rivanna] (UVA)
 **Pros:** Easiest set up (login and go!), integrates with your Google Drive, good free options
 
 **Cons:** Harder to integrate GitHub, requires internet connection
-
 _____________________________
 # Next Steps:
 - Decide which option you'd like to use to use. Use the linked documentation to download the necessary software/make accounts.​
 
 - Test that your environment is working by running: `print("Hello world")`
+
 
 
 

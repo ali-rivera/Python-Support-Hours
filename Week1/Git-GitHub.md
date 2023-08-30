@@ -55,6 +55,13 @@ You want to build out a new "share" feature in your app without affecting the fu
         4. When your new feature is complete, you can create a pull request to merge your "add-share-feature" branch to the main branch.
         5. After doing a final review, you can merge your branches and your new feature will be added to your main branch.
 
+_____________________________
+# Next Steps:
+- Make sure you have Git installed on your computer (run `git --version` in a terminal) or download git if needed​
+
+- Use the linked documentation to set up a GitHub account and local connection​
+
+- Fork the Spoon-Knife repo, make a change locally, and (add, commit, and) push it to your repo​
 
 [download Git]: https://git-scm.com/downloads
 [GitHub]: https://github.com/
