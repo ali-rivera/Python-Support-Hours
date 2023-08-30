@@ -16,9 +16,10 @@ These Support Hours are intended to loosely follow the schedule of DS1002, but o
 | 11/29/23 |                         | Dell 1 Open Space |
 
 ### [Sign in link]
-
+### [Feedback link]
 
 
 
 
 [Sign in link]:  https://forms.office.com/r/XZa0ctu8jn
+[Feedback link]: https://forms.office.com/Pages/ResponsePage.aspx?id=x4A0ewc3c0iLd-IWczplrGOYHY4L82xIpZIH_NI1CCpUQ1NFM041NFo5NkZENjVRMzJJTEY3N0tSUy4u
