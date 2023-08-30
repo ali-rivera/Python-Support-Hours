@@ -20,11 +20,11 @@ When you interact with GitHub, you're usually connecting your local repo (on you
 - [push] - updates the remote repo with the changes made locally
 - [pull]- gets the most recent version of the remote repo to your local repo
 - [branch] - a version of your project where you are making changes (like adding a new feature) but not changing the base branch. This is helpful if you want to try something out without accidentally messing up your main branch.
-- [pull request] - propose changes to a repo, a pull request is made in a branch, so it does not affect the base branch until approved
 - [merge] - updates the base branch with the updates proposed in a pull request
 - [fork] - a copy of a repo on your own account, changes can be made to this new forked copy without affecting the original repo (unless you submit a pull request and they accept it!), any changes made to the original branch can be pulled to your fork
-- [clone] - copies your remote repo to your local machine
+- [pull request] - propose changes to a repo, a pull request is made in a branch, so it does not affect the base branch until approved
 - [fetch upstream] - gets all the new changes from the remote repo (or original repo, in the case of a forked repo) without merging
+- [clone] - copies your remote repo to your local machine
 
 ### Use Cases
 Let's say you have a repo set up for an app you're building and just added a developer to help you build out the app. You have a public remote repo already set up, but since it is your project, only you have permission to make changes to it.
