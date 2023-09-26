@@ -9,7 +9,7 @@ These Support Hours are intended to loosely follow the schedule of DS1002, but o
 |----------|-------------------------|-------------------|
 | 8/30/23  | Tech Stack & Git/GitHub             | Dell 1 Open Space |
 | 9/13/23  | Data types, functions, and best practices                        | Dell 1 Open Space |
-| 9/27/23  |                         | Dell 1 Open Space |
+| 9/27/23  | Pandas                        | Dell 1 Open Space |
 | 10/11/23 |                         | Dell 1 Open Space |
 | 10/25/23 |                         | Dell 1 Open Space |
 | 11/8/23  |                         | Dell 1 Open Space |
