@@ -1,0 +1,146 @@
+---
+title: "Pyhton Support Hours"
+author: "Ali Rivera"
+date: "2023-11-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Overview
+
+Like Python, R is another widely used program in Data Science. Most notably, R is great for stats heavy applications and has a lot of robust, powerful statistical and machine learning packages. Personally, I prefer doing things like data cleaning/wrangling in Python and moving over to R when I'm using a package I know is going to work well in R. This is just because I'm faster in Python, in fact most things you can do in Python you can also do in R.
+
+Since you're probably more familiar with Python than R at this point, it can be helpful to "translate" the things you would normally do in Python to R while you get comfortable with the language. There are some basic syntax differences you should know...
+
+## Assigning Variables
+
+In most languages you use the `=` operator to assign variables like this:
+
+```{r}
+x = 5
+```
+
+In R this will run, but the `<-` operator is preferred, and in some cases the `=` will not work. So in R, we would write the line like this:
+
+```{r}
+## These BOTH do the same thing as x = 5
+
+x <- 5
+# or
+5 -> x 
+```
+
+In RStudio, you can use the `Alt` + `-` keyboard shortcut to quickly type `<-` in a code block.
+
+## Naming
+
+Usually in Python we name variables in camel case (ex: `varName`) where the uppercase letter helps the word separation stand out. We also commonly use underscores for the same reason (ex: `var_name`). These are all valid names in R, but we can also use `.`, as you will see many function names use. So in R we could use `varName`, `var_name` OR `var.name` as a variable name.
+
+*Note these would all reference different variables if you were using all of them in the same document. The point here is just that they are all valid names.*
+
+## Calling Functions
+
+In python you could call a function like upper() on a string by calling `strname.upper()`. Notice how the function is called after the variable and a `.`. In R, the same function is called like this:
+
+```{r}
+strname <- "hello"
+toupper(strname)
+```
+
+Notice how the string is the input to the function, in the same syntax you would use `type(var)` in Python to find the type of a variable.
+
+## Writing If statements, loops, and Functions
+
+Python spacing impacts the structure of your code, which is a unique feature to Python. Most other languages (like Java and R) rely on characters to create structure. Notice the difference in the syntax of the Python and R code blocks below
+
+### If statements
+
+Python
+
+```{python}
+if condition==True:
+  print("Do Something")
+else:
+  print("Do Nothing")
+```
+
+R
+
+```{r}
+if (condition==TRUE) {
+  print("Do Something")
+}else {
+  print("Do Nothing")
+}
+```
+
+In Python we use a : and indentation to encapsulate the body of the if/else statement.
+
+In R we use {curly braces} to encapsulate the body of the if/else statement. Notice the logical statement `(condition==TRUE)` is also in parenthesis.
+
+*\*\* Note! It is best practice to still use the indentation and spacing like they Python syntax - it increases the human readability of your code. \*\**
+
+### Loops
+
+Python
+
+```{python}
+for x in exList:
+  print(x)
+```
+
+R
+
+```{r}
+for (x in exList){
+  print(x)
+}
+```
+
+Similarly to the if/else statements, we see the iteration line `(x in exList)` in parenthesis and the use of {curly braces} instead of the : and indentation.
+
+### Functions
+
+Python
+
+```{python}
+def someFunction(someInput):
+  output = someInput * 2 - 1
+  print(output)
+```
+
+R
+
+```{r}
+someFunction <- function(someInput){
+  output = someInput*2-1
+  print(output)
+}
+```
+
+## A few last things to remember...
+
+-   In R we use `TRUE` and `FALSE` in all uppercase. I imagine this is because the people who wrote R were very passionate about logical values and felt the need to yell. (I'm kidding)
+-   You can use the `help()` function in your code or in the console(my preference) to pull up documentation on a function in RStudio. ex: `help(toupper)`
+-   USE YOUR RESOURCES! I frequently find myself searching for things like ".upper() in R" when I forget the R syntax. This is OK! You'll get more comfortable as you use it more, and knowing what you would use in Python (or any other coding language) is a helpful start.
+
+# Next Steps...
+
+Remember that the best way to learn is to try things and make mistakes! Here are some exercises for you to try out coding in R.
+
+-   [W3 Schools R exercises](https://www.w3schools.com/r/exercise.asp?filename=exercise_syntax1)
+    -   Short, isolated questions to get familiar with R coding. Checks answers and gives option to show solutions.
+    -   *This is a great starting point if you're uncomfortable with R right now.*
+-   [W3 Schools R Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=R)
+    -   25 question quiz that asks questions about R syntax, data types, etc. Checks answers at the end and shows correct answers.
+    -   *This is great if you're looking to find where you are most uncomfortable - so you can focus on those areas.*
+-   Translate a program (or assignment) from Python to R
+    -   Pick a program or assignment you've done in Python and do the same thing in R. This exercise will help you understand the differences between Python and R and get familiar with common R packages for things you already do i Python.
+    -   *This is a good challenge to get stuck and practice getting unstuck.*
+
+# Resources
+
+[W3 Schools R tutorial](https://www.w3schools.com/r/default.asp)
