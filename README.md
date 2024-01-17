@@ -5,15 +5,24 @@ Welcome to the resource page for the Python Support Hours! This page will be upd
 These Support Hours are intended to loosely follow the schedule of DS1002, but open to all who would like support in their Python journey.
 
 ### Tentative Schedule:
-| Date     | Topic                   | Location          |
-|----------|-------------------------|-------------------|
-| 8/30/23  | Tech Stack & Git/GitHub             | Dell 1 Open Space |
-| 9/13/23  | Data types, functions, and best practices                        | Dell 1 Open Space |
-| 9/27/23  | Pandas                  | Dell 1 Open Space |
-| 10/11/23 | More Pandas (common confusing functions!)            | Dell 1 Open Space |
-| 11/01/23 | Loops and Functions and Recursion (oh my!) | Dell 1 Open Space |
-| 11/15/23 | Aggregated Python Practice + Q&A                        | Dell 1 Open Space |
-| 11/29/23 | Key differences in R                        | Dell 1 Open Space |
+| Date     | Topic                        | Location          |
+|----------|-------------------------     |-------------------|
+| 1/30/24  | Tech Stack & Git/GitHub      | Dell 1 Open Space |
+| 2/06/24  | Git/GitHub                   | Dell 1 Open Space |
+| 2/13/24  | Data Types & Best Practices  | Dell 1 Open Space |
+| 2/20/24  | Lambda Functions             | Dell 1 Open Space |
+| 2/27/24  | Pandas I                     | Dell 1 Open Space |
+| 3/05/24  | SPRING BREAK! No meeting     | Dell 1 Open Space |
+| 3/12/24  | Pandas II                    | Dell 1 Open Space |
+| 3/19/24  | Pandas III                   | Dell 1 Open Space |
+| 3/26/24  | Pandas IV                    | Dell 1 Open Space |
+| 4/02/24  | Loops & Functions            | Dell 1 Open Space |
+| 4/09/24  | Recursion                    | Dell 1 Open Space |
+| 4/18/24  | Key differences in R/Python  | Dell 1 Open Space |
+| 4/23/24  | Aggregated Practice + Q&A    | Dell 1 Open Space |
+| 4/30/24  | Aggregated Practice + Q&A    | Dell 1 Open Space |
+
+
 
 ### [Sign in link]
 ### [Feedback link]
