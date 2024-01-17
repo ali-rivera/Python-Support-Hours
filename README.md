@@ -7,7 +7,7 @@ These Support Hours are intended to loosely follow the schedule of DS1002, but o
 ### Tentative Schedule:
 | Date     | Topic                        | Location          |
 |----------|-------------------------     |-------------------|
-| 1/30/24  | Tech Stack & Git/GitHub      | Dell 1 Open Space |
+| 1/30/24  | Tech Stack                   | Dell 1 Open Space |
 | 2/06/24  | Git/GitHub                   | Dell 1 Open Space |
 | 2/13/24  | Data Types & Best Practices  | Dell 1 Open Space |
 | 2/20/24  | Lambda Functions             | Dell 1 Open Space |
