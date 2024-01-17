@@ -1,4 +1,4 @@
-*Feel free to explore this document and the linked resources (as well as other documentation on these tools) to help understand how different environments work. I encourage you to come back to it later as you get experience and start to understand more about the differences once you have more experience and context.*
+*Feel free to explore this document and the linked resources (as well as other documentation on these tools) to help understand how Git/GitHub. I encourage you to come back to it later as you get experience and start to understand more about the differences once you have more experience and context.*
 
 # Git & GitHub
 
@@ -68,7 +68,7 @@ Ok - more realistically you'll probably interact with GitHub the most in your cl
 
 _____________________________
 # Next Steps:
-- Make sure you have Git installed on your computer (run `git --version` in a terminal) or download Git if needed​
+- Make sure you have Git installed on your computer (run `git --version` in a terminal if it returns a version of git... you have it!) or download Git if needed​
 
 - Use the linked documentation to set up a GitHub account and local connection​
 
