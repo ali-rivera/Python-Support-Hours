@@ -3,7 +3,7 @@
 # Git & GitHub
 
 ## Git
-Git is a versioning software that sits on your local computer and aids in the tracking of changes for **code files**. You'll need to [download Git] on your computer. Think of it as a digital leager that tracks the changes in any document over time. 
+Git is a versioning software that sits on your local computer and aids in the tracking of changes for **code files**. You'll need to [download Git] on your computer. Think of it as a digital ledger that tracks the changes in any document over time. 
 
 ## GitHub
 [GitHub] is a website that hosts remote repositories (read: repos) that hold an entire project's folders, files, and version history for each file. Repos can be private or public, meaning only you can see them or anyone on the internet can see everything in the repo, respectively. 
