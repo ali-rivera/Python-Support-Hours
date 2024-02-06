@@ -56,7 +56,7 @@ You want to build out a new "share" feature in your app without affecting the fu
         5. After doing a final review, you can merge your branches and your new feature will be added to your main branch.
 
 #### Use Case 3: Using GitHub in Class
-Ok - more realistically you'll probably interact with GitHub the most in your classes right now. Your professors may host their materails on GitHub and you'll want to be able to get the up-to-date materials as they are added. You'll also want to be able to have any code files, like a homework .ipynb file, they share available to run on whatever environment you have chosen. Here's how that looks:
+Ok - more realistically you'll probably interact with GitHub the most in your classes right now. Your professors may host their materials on GitHub and you'll want to be able to get the up-to-date materials as they are added. You'll also want to be able to have any code files, like a homework .ipynb file, they share available to run on whatever environment you have chosen. Here's how that looks:
 
     They will:
         1. Set up a repo on GitHub with the course materials. Let's say they add the files to the repo weekly, so each week they add the new files you'll need for that week.
@@ -72,7 +72,9 @@ _____________________________
 
 - Use the linked documentation to set up a GitHub account and local connection​
 
-- Fork the Spoon-Knife repo, make a change locally, and (add, commit, and) push it to your repo​
+- Fork this Python Support Hours repo, clone it to your local machine, make a change locally, and (add, commit, and) push it to your repo​. Check that you can see the new change on GitHub.
+
+- Make a change in your repo on GitHub and save it there. Pull the updated version to your local machine and check that you get the updated version on your machine.
 
 - Check out this [Software Carpentry] page to help you get started with git and github! This walks you though a case study on setting up git repos and using git/github throughout a project. It's also a great introduction to using git from the command line!
 
