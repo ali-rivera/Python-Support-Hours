@@ -40,7 +40,7 @@ Examples: [AWS] (Amazon Web Services), [Azure] (Microsoft), [Rivanna] (UVA)
 
 _____________________________
 # Next Steps:
-- Decide which option you'd like to use to use. Use the linked documentation to download the necessary software/make accounts.​
+- Decide which option you'd like to use to use. Use the linked documentation to download the necessary software/make accounts.​ *(NOTE: setting up VS Code can be a little involved. This [medium article] is helpful to follow along with)*
 
 - Test that your environment is working by running: `print("Hello world")`
 
@@ -58,3 +58,4 @@ _____________________________
 [AWS]: https://aws.amazon.com/free/?trk=be77f66f-da84-4f51-9483-df3858616660&sc_channel=ps&s_kwcid=AL!4422!10!71124885882247!71125409442309&ef_id=ffd81f313299198b596f7bd5fc2ac01e:G:s&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all
 [Azure]: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/?ef_id=_k_ca7215648395130e6c8671804d1a3f57_k_&OCID=AIDcmm5edswduu_SEM__k_ca7215648395130e6c8671804d1a3f57_k_&msclkid=ca7215648395130e6c8671804d1a3f57
 [Rivanna]: https://www.rc.virginia.edu/userinfo/rivanna/overview/
+[medium article]: https://medium.com/the-researchers-guide/how-to-set-up-python-and-visual-studio-code-ide-for-data-science-161c61f76fe3

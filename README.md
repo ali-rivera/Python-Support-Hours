@@ -10,12 +10,12 @@ These Support Hours are intended to loosely follow the schedule of DS1002, but o
 | 1/30/24  | Tech Stack                   | Dell 1 Open Space |
 | 2/06/24  | Git/GitHub                   | Dell 1 Open Space |
 | 2/13/24  | Data Types                   | Dell 1 Open Space |
-| 2/20/24  | Using Functions & Best Practices | Dell 1 Open Space |
-| 2/27/24  | Pandas I                     | Dell 1 Open Space |
-| 3/05/24  | SPRING BREAK! No meeting     | Dell 1 Open Space |
-| 3/12/24  | Pandas II                    | Dell 1 Open Space |
-| 3/19/24  | Pandas III                   | Dell 1 Open Space |
-| 3/26/24  | Pandas IV                    | Dell 1 Open Space |
+| ~~2/20/24~~  | ~~Conference! No meeting~~ | ~~Dell 1 Open Space~~ |
+| 2/27/24  | Using Functions & Best Practices                     | Dell 1 Open Space |
+| ~~3/05/24~~  | ~~SPRING BREAK! No meeting~~     | ~~Dell 1 Open Space~~ |
+| 3/12/24  | Pandas I                    | Dell 1 Open Space |
+| 3/19/24  | Pandas II                   | Dell 1 Open Space |
+| 3/26/24  | Pandas III                | Dell 1 Open Space |
 | 4/02/24  | Loops & Making Functions     | Dell 1 Open Space |
 | 4/09/24  | Recursion                    | Dell 1 Open Space |
 | 4/18/24  | Key differences in R/Python  | Dell 1 Open Space |
