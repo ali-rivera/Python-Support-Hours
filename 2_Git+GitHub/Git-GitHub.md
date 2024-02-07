@@ -10,7 +10,7 @@ Git is a versioning software that sits on your local computer and aids in the tr
 
 You can check out the [GitHub documentation] for more info about GitHub... it's pretty user-friendly!
 
-You can interact with GitHub in 4ish ways: CLI (command line interface), the website, through your IDE (VS Code), and the GitHub Desktop app. 
+You can interact with GitHub in 4ish ways: CLI (command line interface), the website, through your IDE (VS Code), and the GitHub Desktop app. If you're using the command line for the first time, this [Command Line Cheat Sheet] would be a helpful reference.
 
 When you interact with GitHub, you're usually connecting your local repo (on your computer) and the remote repo (on GitHub) in some way. Here are several basic terms you'll use when getting started:
 
@@ -25,6 +25,8 @@ When you interact with GitHub, you're usually connecting your local repo (on you
 - [pull request] - propose changes to a repo, a pull request is made in a branch, so it does not affect the base branch until approved
 - [fetch upstream] - gets all the new changes from the remote repo (or original repo, in the case of a forked repo) without merging
 - [clone] - copies your remote repo to your local machine
+
+Here is a [GitHub Cheat Sheet] that is a helpful reference while you get comfortable using git commands.
 
 ### Use Cases
 Let's say you have a repo set up for an app you're building and just added a developer to help you build out the app. You have a public remote repo already set up, but since it is your project, only you have permission to make changes to it.
@@ -80,6 +82,8 @@ _____________________________
 [GitHub]: https://github.com/
 [GitHub documentation]: https://docs.github.com/en/get-started/using-git/about-git
 
+[Command Line Cheat Sheet]: https://www.git-tower.com/learn/cheat-sheets/cli
+
 [add]: https://github.com/git-guides/git-add
 [commit]: https://docs.github.com/en/get-started/quickstart/create-a-repo#commit-your-first-change
 [push]: https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository
@@ -90,5 +94,7 @@ _____________________________
 [fork]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
 [clone]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 [fetch upstream]: https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository#fetching-changes-from-a-remote-repository
+
+[GitHub Cheat Sheet]: https://i.redd.it/8341g68g1v7y.png
 
 [Software Carpentry]: https://swcarpentry.github.io/git-novice/index.html

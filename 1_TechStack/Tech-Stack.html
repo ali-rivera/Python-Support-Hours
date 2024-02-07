@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>tech-stack</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Tech-Stack_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Tech-Stack_files/libs/quarto-html/quarto.js"></script>
+<script src="Tech-Stack_files/libs/quarto-html/popper.min.js"></script>
+<script src="Tech-Stack_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Tech-Stack_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Tech-Stack_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Tech-Stack_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Tech-Stack_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Tech-Stack_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Tech-Stack_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<p><em>Feel free to explore this document and the linked resources (as well as other documentation on these tools) to help understand how different environments work. I encourage you to come back to it later as you get experience and start to understand more about the differences once you have more experience and context.</em></p>
+<section id="tech-stack" class="level1">
+<h1>Tech Stack</h1>
+<p>To run Python code on your machine you’ll need an environment to do so. There are a few options for getting started, each with their Pros and Cons…</p>
+<section id="ide-integrated-development-environment" class="level2">
+<h2 class="anchored" data-anchor-id="ide-integrated-development-environment">IDE (Integrated Development Environment)</h2>
+<p>An IDE is an environment on your machine where you can write and execute code, usually with some bells and whistles to improve or optimize the experience. These bells and whistles usually include some type of debugger that helps you identify what and where the problems in your code are, syntax highlighting and auto-completion, easy integration into GitHub… etc. These are held locally on your machine. This <a href="https://www.codecademy.com/resources/blog/popular-ides-and-code-editors/">Code Academy</a> blog post has a nice overview of some popular IDEs and their use cases.</p>
+<p><strong>Pros:</strong> No internet connection needed (usually), lots of helpful features</p>
+<p><strong>Cons:</strong> Requires set up and management by user, different operating systems (Mac, Windows, Linux) have different nuances</p>
+<p>Examples: <a href="https://code.visualstudio.com/">VS Code</a> (with extensions), <a href="https://www.jetbrains.com/pycharm/">PyCharm</a></p>
+</section>
+<section id="anacondaminiconda" class="level2">
+<h2 class="anchored" data-anchor-id="anacondaminiconda">Anaconda/Miniconda</h2>
+<p><a href="https://www.anaconda.com/">Anaconda</a> is a distribution that contains Python, the package/dependency/environment manager <code>conda</code>, and a large group of packages that you may or (more likely) may not use. It gives you access to <a href="https://jupyter.org/">Jupyter</a> Lab, a popular web-based IDE to run Jupyter Notebook files. It also takes up a lot of disk space (minimum 5 GB free disc space to download and install!) A smaller version of this is <a href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a>, which has Python and <code>conda</code> without all the extra stuff you may or (more likely) may not use. You’ll want to pair miniconda with an IDE like VS Code.</p>
+<p>Looking for more information? This <a href="https://stackoverflow.com/a/58147674">stackoverflow</a> comment explains nicely how Anaconda, miniconda, and Conda differ.</p>
+<p><strong>Pros:</strong> Easy to get started (install and go!), includes a package manager</p>
+<p><strong>Cons:</strong> Anaconda needs a lot of disc space &amp; has a lot of extras you probably won’t use, need an internet connection to use Jupyter Lab</p>
+</section>
+<section id="cloud-environments" class="level2">
+<h2 class="anchored" data-anchor-id="cloud-environments">Cloud Environments</h2>
+<p>Cloud-based environments are a hosted virtual machine (which just means that it is a machine in a warehouse somewhere and you access it through the internet) and allow for secure, sharable access to a set environment. This ends up being less work for the user because the coding environment is already set up on the virtual machine, they just have to log in and start using it.</p>
+<p><strong>Pros:</strong> Consistent, little to no setup for the user, works the same on all (most) machines</p>
+<p><strong>Cons:</strong> Need internet access, requires VM set up by some party, usually time-based access, can be difficult to install new features (unless you have root access)</p>
+<p>Examples: <a href="https://aws.amazon.com/free/?trk=be77f66f-da84-4f51-9483-df3858616660&amp;sc_channel=ps&amp;s_kwcid=AL!4422!10!71124885882247!71125409442309&amp;ef_id=ffd81f313299198b596f7bd5fc2ac01e:G:s&amp;all-free-tier.sort-by=item.additionalFields.SortRank&amp;all-free-tier.sort-order=asc&amp;awsf.Free%20Tier%20Types=*all&amp;awsf.Free%20Tier%20Categories=*all">AWS</a> (Amazon Web Services), <a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/?ef_id=_k_ca7215648395130e6c8671804d1a3f57_k_&amp;OCID=AIDcmm5edswduu_SEM__k_ca7215648395130e6c8671804d1a3f57_k_&amp;msclkid=ca7215648395130e6c8671804d1a3f57">Azure</a> (Microsoft), <a href="https://www.rc.virginia.edu/userinfo/rivanna/overview/">Rivanna</a> (UVA)</p>
+</section>
+<section id="google-colab" class="level2">
+<h2 class="anchored" data-anchor-id="google-colab">Google Colab</h2>
+<p><a href="https://colab.google/">Google Colab</a> is a web service that provides access to a Jupyter Notebook service and free computing resources (with a paid option for more computing power!). You can also get free access to GPU and TPU services (useful for high computational loads like training neural networks) with options to pay to add more if needed. This is entirely web-based so all you need to do is sign-in - no download or install required.</p>
+<p><strong>Pros:</strong> Easiest set up (login and go!), integrates with your Google Drive, good free options</p>
+<p><strong>Cons:</strong> Harder to integrate GitHub, requires internet connection, difficult to store files unless you mount your Google Drive, have to load the GitHub repo every time you start and new notebook</p>
+<hr>
+</section>
+</section>
+<section id="next-steps" class="level1">
+<h1>Next Steps:</h1>
+<ul>
+<li><p>Decide which option you’d like to use to use. Use the linked documentation to download the necessary software/make accounts.​</p></li>
+<li><p>Test that your environment is working by running: <code>print("Hello world")</code></p></li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
