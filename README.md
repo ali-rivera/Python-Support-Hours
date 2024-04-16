@@ -18,7 +18,7 @@ These Support Hours are intended to loosely follow the schedule of DS1002, but o
 | 3/26/24  | Pandas III                | Dell 1 Open Space |
 | 4/02/24  | Loops & Making Functions     | Dell 1 Open Space |
 | 4/09/24  | Recursion                    | Dell 1 Open Space |
-| 4/18/24  | Key differences in R/Python  | Dell 1 Open Space |
+| 4/16/24  | Key differences in R/Python  | Dell 1 Open Space |
 | 4/23/24  | Aggregated Practice + Q&A    | Dell 1 Open Space |
 | 4/30/24  | Aggregated Practice + Q&A    | Dell 1 Open Space |
 
