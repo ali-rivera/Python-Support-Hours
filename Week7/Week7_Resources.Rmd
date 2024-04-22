@@ -138,7 +138,7 @@ Remember that the best way to learn is to try things and make mistakes! Here are
     -   25 question quiz that asks questions about R syntax, data types, etc. Checks answers at the end and shows correct answers.
     -   *This is great if you're looking to find where you are most uncomfortable - so you can focus on those areas.*
 -   Translate a program (or assignment) from Python to R
-    -   Pick a program or assignment you've done in Python and do the same thing in R. This exercise will help you understand the differences between Python and R and get familiar with common R packages for things you already do i Python.
+    -   Pick a program or assignment you've done in Python and do the same thing in R. This exercise will help you understand the differences between Python and R and get familiar with common R packages for things you already do in Python.
     -   *This is a good challenge to get stuck and practice getting unstuck.*
 
 # Resources
