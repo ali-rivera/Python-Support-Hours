@@ -1,26 +1,32 @@
 # Python-Support-Hours
 
+**Example change!**
+
+![A flyer titled "Python Support Hours" with a graphic of Python code that reads print("python support"). The flyer provides details on where and when the support hours take place: "Where: SDS 300, When: Wednesdays, 5-6 PM". It also mentions the purpose of these sessions: "Extra support and practice with Python skills" and provides a contact: "Ali Rivera (ali.rivera@virginia.edu)"](/Fall24-flyer.png)
+
+
+
 Welcome to the resource page for the Python Support Hours! This page will be updated regularly with the materials we use.
 
 These Support Hours are intended to loosely follow the schedule of DS1002, but open to all who would like support in their Python journey.
 
 ### Tentative Schedule:
-| Date     | Topic                        | Location          |
-|----------|-------------------------     |-------------------|
-| 1/30/24  | Tech Stack                   | Dell 1 Open Space |
-| 2/06/24  | Git/GitHub                   | Dell 1 Open Space |
-| 2/13/24  | Data Types                   | Dell 1 Open Space |
-| ~~2/20/24~~  | ~~Conference! No meeting~~ | ~~Dell 1 Open Space~~ |
-| 2/27/24  | Using Functions & Best Practices                     | Dell 1 Open Space |
-| ~~3/05/24~~  | ~~SPRING BREAK! No meeting~~     | ~~Dell 1 Open Space~~ |
-| 3/12/24  | Pandas I                    | Dell 1 Open Space |
-| 3/19/24  | Pandas II                   | Dell 1 Open Space |
-| 3/26/24  | Pandas III                | Dell 1 Open Space |
-| 4/02/24  | Loops & Making Functions     | Dell 1 Open Space |
-| 4/09/24  | Recursion                    | Dell 1 Open Space |
-| 4/16/24  | Key differences in R/Python  | Dell 1 Open Space |
-| 4/23/24  | Aggregated Practice + Q&A    | Dell 1 Open Space |
-| 4/30/24  | Aggregated Practice + Q&A    | Dell 1 Open Space |
+| Date     | Topic                             |
+|----------|---------------------------------- |
+| 09/04/24  | Tech Stack                       | 
+| 09/11/24  | Git/GitHub                       | 
+| 09/18/24  | Data Types                       |
+| 09/25/24  | Using Functions & Best Practices |
+| 10/02/24  | Pandas I                         |
+| 10/09/24  | Pandas II                        |
+| 10/16/24  | Pandas III                       | 
+| 10/23/24  | Loops & Making Functions         | 
+| 10/30/24  | Recursion                        | 
+| 11/06/24  | Key differences in R/Python      | 
+| 11/13/24  | Aggregated Practice + Q&A        | 
+| 11/20/24  | TBA                              | 
+| ~~11/27/24~~  | ~~Thanksgiving~~             | 
+| 12/04/24  | TBA                              |
 
 
 

@@ -1,6 +1,8 @@
 *Feel free to explore this document and the linked resources (as well as other documentation on these tools) to help understand how Git/GitHub. I encourage you to come back to it later as you get experience and start to understand more about the differences once you have more experience and context.*
 
 # Git & GitHub
+![Git Cartoon, image source: https://chi.anthropology.msu.edu/2020/02/making-a-github-diagram/](https://i0.wp.com/chi.anthropology.msu.edu/wp-content/uploads/2020/02/xkcd-comic-git.png?resize=366%2C530&ssl=1)
+
 
 ## Git
 Git is a versioning software that sits on your local computer and aids in the tracking of changes for **code files**. You'll need to [download Git] on your computer. Think of it as a digital ledger that tracks the changes in any document over time. 
