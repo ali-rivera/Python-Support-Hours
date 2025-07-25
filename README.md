@@ -1,6 +1,6 @@
 # Python-Support-Hours
 
-![A flyer titled "Python Support Hours" with a graphic of Python code that reads print("python support"). The flyer provides details on where and when the support hours take place: "Where: SDS 300, When: Wednesdays, 12-1 PM". It also mentions the purpose of these sessions: "Extra support and practice with Python skills" and provides a contact: "Ali Rivera (ali.rivera@virginia.edu)"](/Sp25_flyer.png)
+![A flyer titled "Python Support Hours" with a graphic of Python code that reads print("python support"). The flyer provides details on where and when the support hours take place: "Where: TBD, When: Tuesdays, 1-2 PM". It also mentions the purpose of these sessions: "Extra support and practice with Python skills" and provides a contact: "Ali Rivera (ali.rivera@virginia.edu)"](/F25_PSH-H.jpg)
 
 
 
