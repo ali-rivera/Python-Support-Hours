@@ -6,7 +6,7 @@ Welcome to the resource page for the Python Support Hours! This page will be upd
 
 These Support Hours are intended to loosely follow the topics covered in DS1002, but open to all who would like support in their Python journey.
 
-![Flyer with meeting information]([F26_Python Support Hours-H.jpg](https://github.com/ali-rivera/Python-Support-Hours/blob/main/F26_Python%20Support%20Hours-H.jpg))
+![A flyer titled "Python Support Hours" with a graphic of Python code that reads print("python support"). The flyer provides details on where and when the support hours take place: "Where: SDS 2nd floor outside classrooms, When: Wednesdays, 2:30-4:40 PM". It also mentions the purpose of these sessions: "Extra support and practice with Python skills" and provides a contact: "Ali Rivera (ali.rivera@virginia.edu)"](/F26_Python Support Hours-H.jpg)
 
 
 ### [Sign in link]
