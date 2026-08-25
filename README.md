@@ -6,6 +6,8 @@ Welcome to the resource page for the Python Support Hours! This page will be upd
 
 These Support Hours are intended to loosely follow the topics covered in DS1002, but open to all who would like support in their Python journey.
 
+![Flyer with meeting information](F26_Python Support Hours-H.jpg)
+
 
 ### [Sign in link]
 ### [Feedback link]
